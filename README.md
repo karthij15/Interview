@@ -38,3 +38,4 @@ Some of the Interview Questions
 6. Explain about Apache Solr.
 7. Explain about Apache Kafka.
 8. How google search works, How the data was stored and which data structures was used.
+9. Difference between REST and Kafka, Which one do we have to prefer on what scenario ?
