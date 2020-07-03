@@ -38,4 +38,24 @@ Some of the Interview Questions
 6. Explain about Apache Solr.
 7. Explain about Apache Kafka.
 8. How google search works, How the data was stored and which data structures was used.
-9. Difference between REST and Kafka, Which one do we have to prefer on what scenario ?
+9. Difference between REST and Kafka, Which one do we have to prefer on what scenario?
+10. Explain about GC? which algorithm used in it.
+
+## Third Round: Online f to f
+1. what is docker? how you deploy your application in the machine.
+2. what is kubernetes? how it differs from docker?
+3. Difference between RabbitMQ and Kafka
+4. What is API Gateway?
+5. What is Service Registry and Service Discovery in Microservices.
+6. Explain circuit breaker
+7. How two microservices communicate to each other? 
+8. SQL Query to get list of credited and debited details having amount greater than 500 group by userid
+   incoming                         outgoing
+    - user id                    - user id
+    - amount                     - amount
+    - date                       - date
+    
+    total incoming
+    total outcoming
+    for each day
+    amount > 500
