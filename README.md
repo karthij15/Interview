@@ -59,3 +59,14 @@ Some of the Interview Questions
     total outcoming
     for each day
     amount > 500
+
+## Third Round Second Time online f to f - Optum Advisory Board
+1. How much volume of data you have migrated in your project?
+2. Server capacity and memory allocation for your servers in production for the proposed volume of data.
+3. How sharding can be done for mongodb? 
+4. Design a system to input a large file containing book tiles and response query for word search.
+   why you use solr and mongo? what's the purpose of mongo over here>.
+5. Replace a request of stock results for company to a request takes multipe stock request for different companies and responds the results without affecting the time. 
+it should response results as quick as the previous ones. 
+6. How you will process a large set of files. For example take a log system having terra bytes of data in singe file process the file, mask the desired data in the log text and write back to a file.
+7. how will you merge the chunks without data overlapping.
