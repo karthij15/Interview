@@ -71,3 +71,4 @@ it should response results as quick as the previous ones.
 6. How you will process a large set of files. For example take a log system having terra bytes of data in singe file process the file, mask the desired data in the log text and write back to a file.
 7. how will you merge the chunks without data overlapping.
 8. Have you trained any junior resources before.
+9. which spring boot version are you using?
