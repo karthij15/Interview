@@ -72,3 +72,18 @@ it should response results as quick as the previous ones.
 7. how will you merge the chunks without data overlapping.
 8. Have you trained any junior resources before.
 9. which spring boot version are you using?
+
+
+# Glovo - Spain
+
+## First Round - Screening
+1. pros and cons of using microservices agains monolith. Difference, advantages and disadvantages of Monolith and microservice architectures.  
+2. Time complexity to get an element in array and list. 
+3. Difference between MySQL and NoSQL - Explain CAP Theorem. 
+4. Explain about JVM. 
+5. Explain Time and Space Complexity. 
+6. Explain CI/CD 
+7. Explain your TDD Process. 
+8. Horizontal vs Vertical Scaling. 
+9. Explain SOLID Principles. 
+10. Difference between Process and Threads. 
