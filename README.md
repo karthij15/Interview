@@ -89,9 +89,9 @@ it should response results as quick as the previous ones.
 10. Difference between Process and Threads. 
 
 ## Second Round - Coding in Codility
-1. Find the first repeating character in a String. Order of the character to be considered.
-   Ex: ABCA - A
-       Glovol - l
+1. Find the first repeating character in a String. Order of the character to be considered. 
+   Ex: ABCA - A 
+       Glovol - l 
        
        ```
                public String findFirstRepeatingCharacter(String s) {
@@ -147,8 +147,8 @@ it should response results as quick as the previous ones.
        ```
 
 2. Paranthesis Match. 
-   ()[]{} - true
-   ([]) - false
+   ()[]{} - true 
+   ([]) - false 
    
    ```
            public boolean isParanthesisBalanced(String s) {
