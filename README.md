@@ -87,3 +87,95 @@ it should response results as quick as the previous ones.
 8. Horizontal vs Vertical Scaling. 
 9. Explain SOLID Principles. 
 10. Difference between Process and Threads. 
+
+## Second Round - Coding in Codility
+1. Find the first repeating character in a String. Order of the character to be considered.
+   Ex: ABCA - A
+       Glovol - l
+       
+       ```
+               public String findFirstRepeatingCharacter(String s) {
+            LinkedHashMap<Integer, Integer> charOccuranceMap = new LinkedHashMap();
+    
+            char[] charArr = s.toCharArray();
+    
+            for(int idx = 0; idx < charArr.length; idx++) {
+                // System.out.println("" + (char)charArr[idx]);
+                // Character c = (char)charArr[idx];
+                int occuranceCount = 1;
+                Integer charVal = (int)charArr[idx];
+    
+                if(charOccuranceMap.containsKey(charVal)) {
+                    occuranceCount = charOccuranceMap.get(charVal);
+                    occuranceCount++;
+                }
+                charOccuranceMap.put(charVal, occuranceCount);
+            }
+    
+            for(Map.Entry<Integer, Integer> entry : charOccuranceMap.entrySet()) {
+                //int cInt = entry.getKey();
+                //System.out.println( ((char)cInt) + " " + entry.getValue()) ;
+    
+                if(entry.getValue() > 1) {
+                    int cInt = entry.getKey();
+                    return "" + (char)cInt;
+                }
+    
+            }
+    
+            return "";
+    
+            /*
+            int[] HASH = new int[256];
+    
+            char[] charArr = s.toCharArray();
+    
+            int idx = 0;
+    
+            while(idx < charArr.length) {
+                HASH[charArr[idx]]++;
+    
+                if(HASH[charArr[idx]] > 1)
+                    return "" + charArr[idx];
+    
+                idx++;
+            }
+    
+            return "";
+            */
+        }
+       ```
+
+2. Paranthesis Match. 
+   ()[]{} - true
+   ([]) - false
+   
+   ```
+           public boolean isParanthesisBalanced(String s) {
+            
+            char[] charArr = s.toCharArray();
+            
+            Stack<Character> charStack = new Stack();
+            List<Character> openBracesList = Arrays.asList(new Character[]{'(', '[', '{'});
+            List<Character> closeBracesList = Arrays.asList(new Character[]{')', ']', '}'});
+            
+            int indexOfChar = -1;
+            
+            for(int i = 0; i < charArr.length; i++) {
+                if(openBracesList.contains(charArr[i])) {
+                    indexOfChar = openBracesList.indexOf(charArr[i]);
+                    charStack.push(charArr[i]);
+                }
+                
+                if(closeBracesList.contains(charArr[i])) {
+                    if(closeBracesList.indexOf(charArr[i]) != indexOfChar)
+                        return false;
+
+                    charStack.pop();
+                }
+            }
+            
+            System.out.println("--- isBalanced: " + charStack.isEmpty());
+            return charStack.isEmpty();
+        }
+   ```
