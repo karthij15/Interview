@@ -180,27 +180,29 @@ it should response results as quick as the previous ones.
             return charStack.isEmpty();
         }
    ```
-   # Ericsson - Chennai
+# Ericsson - Chennai
    
-   ## First Round
-   1. Difference between an Abstract class and Interface. 
-   2. Can We have main() method in Abstract Class? 
-   3. How to remove duplicates in ArrayList?
-   4. Which is the preferred datatype for storign password?
-   5. Difference between HashMap and HashTable
-   6. Do you konw about Collections.synchronized() ?
-   7. Difference between Collections.synchronized(HashMap) and ConcurrentHashMap
-   8. What is the difference between an ordered and a sorted collection?
-   9. Consider We have a map having integer key and string value. Can you sort the Map withe ascending order of keys.
-   10. Can you explain overriding and overloading?
-   11. Is it possible to declare a variable final and not initializing values. ex: final int a;
-   12. StringBuffer vs StringBuilder
-   13. What is a memory leak?
-   14. Consider a system is having out of memory exception. How will you debug?
-   15. Consider there is a REST API Service, which you have to call from your java application. the REST Service will be down if more than 3 requests accessed at a time. Add rate limit in the java application.
-   16. First unique character in a String 
+## First Round
+1. Difference between an Abstract class and Interface. 
+2. Can We have main() method in Abstract Class? 
+3. How to remove duplicates in ArrayList?
+4. Which is the preferred datatype for storign password?
+5. Difference between HashMap and HashTable
+6. Do you konw about Collections.synchronized() ?
+7. Difference between Collections.synchronized(HashMap) and ConcurrentHashMap
+8. What is the difference between an ordered and a sorted collection?
+9. Consider We have a map having integer key and string value. Can you sort the Map withe ascending order of keys.
+10. Can you explain overriding and overloading?
+11. Is it possible to declare a variable final and not initializing values. ex: final int a;
+12. StringBuffer vs StringBuilder
+13. What is a memory leak?
+14. Consider a system is having out of memory exception. How will you debug?
+15. Consider there is a REST API Service, which you have to call from your java application. the REST Service will be down if more than 3 requests accessed at a time. Add rate limit in the java application.
+16. First unique character in a String 
    ex: "ABCAAC"
    ans: "B"
-   17. Can you explain Singleton?
-   18. Can we declare a class Static in Java?
-   19. 
+17. Can you explain Singleton?
+18. Can we declare a class Static in Java?
+19. In java which are all stores in Stack memory and Heap memory.
+20. can you differentiate == with equals method.
+21. What is the contract between equals and hashcode method.
