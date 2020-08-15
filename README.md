@@ -206,3 +206,19 @@ it should response results as quick as the previous ones.
 19. In java which are all stores in Stack memory and Heap memory.
 20. can you differentiate == with equals method.
 21. What is the contract between equals and hashcode method.
+
+## Second Round
+1. Find the largest two numbers in an Integer Array
+2. JVM Memory Management
+3. String, String Buffer and String Builder - Comparision, Which is Efficient?
+4. When ArrayList compared to LinkedList which is best of read operation and which one for right operation?
+5. Explain SOLID Principles
+6. What is the Major advantages of Loosly Coupled System(Data Abstraction), Why We have to go with Dependency Injection.
+7. What is Data Abstraction.
+8. How to provide thread safety for a class having one variable and one method. without using Synchronization.
+9. Explain Kafka, Partition? Why Partition is used how the partition limit was determined?
+10. What is Hadoop? Explain Map-Reduce
+11. Difference between Error and Exception
+12. How to avoid Exception?
+13. What is High Availability?
+14. Explain o(LogN). Explain the search between ordered array and unordered array.
