@@ -222,3 +222,11 @@ it should response results as quick as the previous ones.
 12. How to avoid Exception?
 13. What is High Availability?
 14. Explain o(LogN). Explain the search between ordered array and unordered array.
+15. Explain about GC. Which one you are using?
+
+## HR Manager Round
+1. Why you are leaving your present company?
+2. Are you willing to migrate?
+3. how to deal with the client which continuously brings new requirement and want it for yesterday, etc
+4. what is your goal in your life?
+5. Explain one problem where you outwitted yourself.
