@@ -230,3 +230,107 @@ it should response results as quick as the previous ones.
 3. how to deal with the client which continuously brings new requirement and want it for yesterday, etc
 4. what is your goal in your life?
 5. Explain one problem where you outwitted yourself.
+
+# EMBL-EBI (EBI01693) Sofware Developer London
+
+## Hacker Rank Round
+1. what would be the output?
+```
+class Test {
+
+    public static void main(String...args) {
+        try {
+         badMethod();
+         System.out.println("A");
+        } catch(Exception e) {
+         System.out.println("B");
+        } finally {
+         System.out.println("C");
+        }
+        System.out.println("D");
+    }
+
+    public static void badMethod() {
+    }
+}
+```
+2. What would be the output ?
+
+java Test -DopenDog=Roetweeler
+```
+class Test {
+
+    public static void main(String...args) {
+       Properties p = System.getProperties();
+       p.setProperty("dog", "scrunky");
+       String openDog = p.getPropert("openDog");
+       String dog = p.getProperty("dog");
+       dog += openDog;
+       System.out.println(dog);
+    }
+}
+```
+
+3. What is the root(apex) of exception hierarrchy in Java?
+4. How many return statements are allowed in python function?
+5. Write a python program contains functions to remove vowels in a string and consonents in a string. print seperately.
+6. Write default implementations for an interface in java
+7. What would be the output of the below function
+```
+a = 0
+for b in range(0, 10, 2):
+    a += b + 1;
+```
+8. What would be the output of the below function
+```
+def foo(a, b, c) : pass
+```
+9. A multiple choice question contains key value paris. Which of the below is the correct key value combination in hashtable.
+10. select id, name from customer and sort the values by name ascending if two of the customer has same name then sort those by id asc.
+11. A merchant has 1000 kg of sugar, part of which he sells at 8% profit and the rest at 18% profit. He gains 14% on the whole. The quantity sold at 18% profit is?
+12.  What would be the output?
+```
+int[] a = new int[]{1,2,5,2,3,7,9,1,2,6};
+add elements of array to a set
+add set values to a list and sort it by ascending 
+```
+13. REST constraints based question
+14. FizzBuzz in Java (Sample Program) - runtime of the program should not exceed 4ms
+Write a program that outputs the string representation of numbers from 1 to n.
+
+But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.
+
+
+```
+public List<String> fizzBuzz(int n) {
+        
+        List<String> result = new ArrayList<>();
+        
+        if(n < 1) return result;
+        
+        for(int i = 1, fizz = 3, buzz = 5; i <= n; i++) {
+        
+            String addVal = null;
+            
+            if(i == fizz && i == buzz) {
+                addVal = "FizzBuzz"; 
+                fizz += 3;
+                buzz += 5;
+            } else if(i == fizz) {
+                addVal = "Fizz";
+                fizz += 3;
+            } else if(i == buzz) {
+                addVal ="Buzz";
+                buzz += 5;
+            } else
+                addVal = String.valueOf(i);
+            
+            result.add(addVal); 
+        }
+        
+        return result;
+    }
+
+```
+15. URI constraints based question. (Sample)
+16. Which of the following data structures can erase from its beginning or its end in O(1) time? (Sample)
