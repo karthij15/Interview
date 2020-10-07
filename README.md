@@ -344,7 +344,7 @@ But for multiples of three it should output “Fizz” instead of the number and
 3. Why Auto1
 4. REST - What is Itempotent methods?
 5. Explain HTTP Methods
-6. Which HTTP Methods are Safe? - An HTTP method is safe if it doesn't alter the state of the server. In other words, a method is safe if it leads to a read-only operation. Several common HTTP methods are safe: GET , HEAD , or OPTIONS . All safe methods are also idempotent,
+6. Which HTTP Methods are Safe? - An HTTP method is safe if it doesn't alter the state of the server. In other words, a method is safe if it leads to a read-only operation. Several common HTTP methods are safe: GET , HEAD , or OPTIONS . All safe methods are also idempotent,but not all idempotent methods are safe
 7. Spring - Spring bean scopes
 8. Spring - Which Spring bean scope is thread safe(Singleton not thread safe)
 9. Types of Autowiring - (The autowiring functionality has four modes. These are ' no ', ' byName ', ' byType ' and ' constructor ')
@@ -352,5 +352,6 @@ But for multiples of three it should output “Fizz” instead of the number and
 11. Java - contract between equals and hashcode method
 12. Functional Interfaces - and its types
 13. List which collections from java you've used
-14. How long you need for relocation
-15. Salary Expectation
+14. Super class for unchecked exception and for checked exception?
+15. How long you need for relocation
+16. Salary Expectation
