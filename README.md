@@ -355,3 +355,14 @@ But for multiples of three it should output “Fizz” instead of the number and
 14. Super class for unchecked exception and for checked exception?
 15. How long you need for relocation
 16. Salary Expectation
+
+# SquareShift - Chennai
+
+## First Round
+1. Air Plane Seating alogrithm : https://github.com/karthij15/squareshift
+
+## Second Round
+1. Drawbacks of Monolith
+2. Explain a scenario which you come across related to data incosistency
+3. How will you handle inventory out of stock scenario
+4. How you will review a code? Review your submitted code.
