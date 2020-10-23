@@ -366,3 +366,22 @@ But for multiples of three it should output “Fizz” instead of the number and
 2. Explain a scenario which you come across related to data incosistency
 3. How will you handle inventory out of stock scenario
 4. How you will review a code? Review your submitted code.
+
+# PayPal - Chennai
+
+## First Round
+1. Explain about yourself
+2. Deep questions about previous projects
+3. Few of My GitHub programs discussed LRUCache, RotateArray
+4. Rotate characters in a string not using the above RotateArray approach (used string concat and substring)
+5. Do left rotate and again right rotate the characters(cancel the repetetive approaches). Refactor the code.
+
+## Second Round
+1. 3 different array having elements in different sequential orders. combine in single array in ascending order
+   S1 [1, 4, 9]
+   S2 [2, 5, 7, 8]
+   S3 [3, 6]
+   
+   Result [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  
+2. Design a TinyURL System
