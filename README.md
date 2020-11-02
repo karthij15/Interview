@@ -385,3 +385,18 @@ But for multiples of three it should output “Fizz” instead of the number and
    Result [1, 2, 3, 4, 5, 6, 7, 8, 9]
   
 2. Design a TinyURL System
+
+### Third Round
+1. Why Kafka Over ActiveMQ
+2. What's your typical Day!
+3. How are you managing your team
+4. Given a sorted array of integers, find the starting and ending position of a given target value.
+   If the target is not found in the array, return [-1, -1].
+   Example:
+   Given [5, 7, 7, 8, 8, 10]
+   and target value 8,
+   return [3, 4].
+5. A [ 8, 23, 22, 16, 22, 7, 7, 27, 35, 27, 32, 20, 5, 1, 35, 28, 20, 6, 16, 26, 48, 34 ]
+   Return the first lowest number lower than the current index
+   The expected returned value :
+   O: -1 8 8 8 16 -1 -1 7 27 7 27 7 -1 -1 1 1 1 1 6 16 26 26
