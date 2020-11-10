@@ -400,3 +400,306 @@ But for multiples of three it should output “Fizz” instead of the number and
    Return the first lowest number lower than the current index
    The expected returned value :
    O: -1 8 8 8 16 -1 -1 7 27 7 27 7 -1 -1 1 1 1 1 6 16 26 26
+
+# Altimetric - PayPal Interview
+
+## Hacker Rank Round
+### Program 1.
+The longest palindromic substring of the the given input.
+  Ex:  hackerrekcahbahh 
+  Ans: hackerrekcah
+### Program 2.
+You just got a new job where you have to work exactly as many hours as you are told each week, working no more than a daily maximum number of hours per day. Some of the days, they tell you how many hours you will work. You get to choose the remainder of your schedule, within the limits.
+
+A completed schedule consists of exactly 7 digits in the range 0 to 8 representing each day's hours to be worked. You will get a pattern string similar to the schedule, but with some of the digits replaced by a question mark, ?, (ascii 63 decimal). Given a maximum number of hours you can work in a day, replace the question marks with digits so that the sum of the scheduled hours is exactly the hours you must work in a week. Return a string array with all possible schedules you can create, ordered lexicographically.
+
+For example, your partial schedule, pattern = 08??840, your required hours, work_hours = 24, and you can only work, at most, day_hours = 4 hours per day during the two days in question. You have two days on which you must work 24 - 20 = 4 more hours for the week. All of your possible schedules are listed below:
+
+0804840
+0813840
+0822840
+0831840
+0840840
+Function Description
+Complete the function findSchedules in the editor below. The function must return an array of strings that represents all possible valid schedules. The strings must be ordered lexicographically.
+
+findSchedules has the following parameter(s):
+
+work_hours: an integer that represents the hours you must work in the week
+
+day_hours: an integer that represents the maximum hours you may work in a day
+
+pattern: a string that represents the partially completed schedule
+
+Constraints
+1 ≤ work_hours ≤ 56
+1 ≤ day_hours ≤ 8
+| pattern | = 7
+Each character of pattern ∈ {0, 1,...,8}
+There is at least one correct schedule.
+Input Format For Custom Testing
+The first line contains an integer, work_hours The second line contains an integer, day_hours The third line contains a string, pattern
+
+Sample Case 0
+Sample Input 0
+
+56
+8
+???8???
+Sample Output 0
+
+8888888
+Explanation 0
+
+work_hours = 56
+day_hours = 8
+pattern = ???8???
+There is only one way to work 56 hours in 7 days of 8 hours.
+
+Sample Case 1
+
+Sample Input 1
+
+3
+2
+??2??00
+Sample Output 1
+
+0020100
+0021000
+0120000
+1020000
+Explanation 1
+
+work_hours = 3
+day_hours = 2
+pattern = ??2??00
+You only need to schedule 1 more hour for the week, and it can be on any one of the days in question.
+
+### Program 3
+Multiple processors running with different process, find processors, required
+
+Given there are multiple processors available to execute the given program. Each program are split into multi process in such a way each process has some start time and end time based on the time it takes to run. Different process are feed to processors to execute, goal is to minimize the time taken and ensure the processors are completed with least time. Find out the minimum no of processors required to execute the given processes. No of process and its start time to execute the process is been provided. Use the compute method to find the minimum number of processors required to execute them..
+
+Example
+
+with the given starting time of the process, ending time of the processes as below need to identify the minimum number of processors required.
+
+//as far remembered two array of times will be the input. expected output is an Integer
+String[] start_time = new String["12.09.20:09:39", "09.09.20:09:39", "01.08.20:09:39"]
+String[] end_time = new String["03.01.20:09:39", "02.09.20:09:39", "01.08.20:09:39"]
+
+### Multiple Choice Questions
+1. What would be the output?
+```
+int a = 260; 
+byte b = (byte)a;
+System.out.println(b);
+
+```
+2. What would be the output ?
+```
+int[] a = new int[] {1, 2, 3};
+int[] o = Arrays.copyOf(a, 5);
+int[] c = Arrays.copyOfRange(o, 0, 4); //line 3
+for(int i : c) {
+    System.out.println(i);
+}
+```
+
+Compile Error: line 3 returns int not int[].
+
+3. what would be the output?
+```
+int temp = 40;
+if(temp == 30 && temp/0 == 4) {
+	System.out.println(1);
+} else {
+	System.out.println(2);
+}
+```
+4. What would be the output?
+```
+for(int i = 0; i > 5; ) {
+   System.out.println("Hell0" + i);
+}
+System.out.println("Completed!");
+```
+5. what will be the output?
+```
+String temp = "10.87";
+int a = Integer.parseInt(temp);
+System.out.println(a);
+```
+Will throw a RunTime Error
+
+6. What would be the output? 
+```
+String s1 = "java";
+String s2 = s1.intern();
+String s3 = "java";
+String s4 = new String("java");
+StringBuffer sb = new StringBuffer("java");
+System.out.println((s1 == s2) + (s2==s3) + (s3 == s4) + (s1 == s4));
+```
+7. What would be the output?
+```
+int[] a = new int[10];
+byte[] b = new byte[10];
+char[] c = new char[10];
+double[] d = new double[10];
+
+System.out.println(a[0] + "" + b[0] + "" + c[0] + "" + d[0]);
+```
+8. What would be the output?
+```
+System.out.println(1 + 
+		2==+
+		3+
+		+
+		+5+ 
+		++6 +
+		--7);
+```
+9. What would be the output?
+```
+String a = "abc";
+String b = "abc";
+
+System.out.println(a == b);
+```
+10. what would be the output?
+```
+int b = 96;
+System.out.println(b >>4);
+System.out.println(b >>>4);
+```
+11. which of the below statement is wrong?
+```
+1.int a[][] = {{1,2},{12,2,22}};
+2.int b[] = new int[2]{1,2};
+3.int i[][] = {{1,2},{12,2,22}}, b = 2;
+```
+12. what would be the output?
+```
+public static int temp1  = 1;
+private static int temp2 = 2;
+
+private int temp4 = 4;
+
+public static class inner {
+	private static int getSumOf2() {
+		return (temp1 + temp2);
+	}
+
+	private static int getSumOf4() {
+		return (temp1 + temp4);
+	}
+}
+```
+13. Which line compiler will throw the error?
+```
+ public static int temp1 = 1; 
+ public static int temp2 = 2;
+ public int temp3 =	 3; 
+ private int temp4 = 4;
+
+ public class InnerClass { 
+	 private static int getSum() 
+	 {
+		 return temp1 + temp2; 
+	 }
+ }
+```
+14. What would be the output?
+```
+class Test {
+
+public static void main(String[] args) {
+  int x = 30;
+  System.out.println(x);
+}
+
+static {
+ int x = 10;
+ System.out.println(x);
+}
+}
+```
+15. Which of the following is correct recurrence for worst case of Binary Search?
+(A) T(n) = 2T(n/2) + O(1) and T(1) = T(0) = O(1)
+(B) T(n) = T(n-1) + O(1) and T(1) = T(0) = O(1)
+(C) T(n) = T(n/2) + O(1) and T(1) = T(0) = O(1)
+(D) T(n) = T(n-2) + O(1) and T(1) = T(0) = O(1)
+
+Ans: C
+
+16. Given a sorted array of integers, what can be the minimum worst case time complexity to find ceiling of a number x in given array? Ceiling of an element x is the smallest element present in array which is greater than or equal to x. Ceiling is not present if x is greater than the maximum element present in array. For example, if the given array is {12, 67, 90, 100, 300, 399} and x = 95, then output should be 100.
+(A) O(LogLogn)
+(B) O(n)
+(C) O(Logn)
+(D) O(Logn * Logn)
+
+Answer: C
+
+17. What would be the output?
+```
+public static void main(String[] args) {
+    System.out.println("Hello");
+    5<6?6:5;
+}
+```
+18. What is the name of this tree?
+```
+
+       /       \  
+     15         30  
+    /  \        /  \
+  40    50    100   40
+ /  \   /
+8   7  9 
+```
+a) Binary Tree
+b) Binary Search Tree
+c) Complete Tree
+d) Full Tree
+
+19. Level order Tree Traversal also known as _____________________
+20. What is Widening Type convertion in Java?
+21. Fill the blanks
+A Java thread dump is a way of finding out what every thread in the ___________ is doing at a particular point in time. This is especially useful if your Java application sometimes seems to hang when running under load, as an analysis of the dump will show where the ___________ are stuck.
+
+22. List of statements based question about ExecutorService in java, from which we have to identify which one is incorrect amoung them
+23. List of statements based question about JVM Heap, PermGen, Xms, Xmx and Xmn in java, from which we have to identify which one is incorrect amoung them
+24. List of statements based question about Packages in java, from which we have to identify which one is incorrect amoung them
+25. List of statements based question about Generics in java, from which we have to identify which one is incorrect amoung them
+    (generics are run time type correctness(X), A lower bounded wildcard is expressed using the wildcard character ('? '), following by the super keyword, (Y))
+26. Which of the following is not true for garbage collection?
+27. What would be the output?
+```
+import static java.lang.System.*;
+
+public static void main(String[] args) {
+   out.println("test");
+}
+```
+28. Select ONE or MORE Rules manadatory for maitaining URL Standards
+29. What would be the output?
+```
+class NewThread extends Thread {
+	public void run() {
+		for(int i = 0; i < 500; i ++) {
+		System.out.println("i" + i);
+		}
+    	}
+}
+
+class Test {
+	public static void main(String...args) {
+		NewThread n = new NewThread();
+		n.setDaemon(true);
+		n.start();
+		System.out.println("Completed");
+	}
+}
+```
