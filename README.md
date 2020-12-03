@@ -703,3 +703,21 @@ class Test {
 	}
 }
 ```
+
+#capgemini
+
+## First Round
+1. Difference between Controller and Rest Controller
+2. Difference between Monolith and Microservice
+3. Explain some new features of Java 8
+
+## Second Round
+1. Explain advantages of Microservices
+2. what is blue-green deplooyment
+3. What is smart end-points and dumb pipes
+4. Can you work as Individual Contributor or Leading a Team?
+5. As a part of team lead, what are the qualities you expect to have?
+6. What will be the one word, if we ask about you to your manager.
+7. Why SpringBoot? advantages over Spring
+8. Spring Bean lifecycle?
+7. Design Pattern/Architectural pattern behind API-Gateway?
