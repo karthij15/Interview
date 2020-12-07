@@ -741,10 +741,6 @@ cba
 bac
 
 3. PreOrder traversal of a Binary Tree without recursion
-
-4. SQL  queries
-a table "product" with columns cost, category, and productname
-
-1. print productname from product having same cost
-2. print category from product having more than 3 items
+4. print productname from product having same cost Note: SQL  queries (a table "product" with columns cost, category, and productname)
+5. print category from product having more than 3 items Note: SQL  queries (a table "product" with columns cost, category, and productname)
 
