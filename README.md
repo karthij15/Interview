@@ -720,3 +720,31 @@ class Test {
 7. Why SpringBoot? advantages over Spring
 8. Spring Bean lifecycle?
 7. Design Pattern/Architectural pattern behind API-Gateway?
+
+# Optum - Chennai
+
+## First Round
+1. Merge two arrays without duplicates
+int[] a = new int[]{1, 2, 5};
+int[] b = new int[]{3, 4, 6, 2};
+
+output = {1,2,5,3,4,6}
+
+2. Print all permutaions of a String
+input a = "abc"
+
+abc
+acb
+bca
+cab
+cba
+bac
+
+3. PreOrder traversal of a Binary Tree without recursion
+
+4. SQL  queries
+a table "product" with columns cost, category, and productname
+
+1. print productname from product having same cost
+2. print category from product having more than 3 items
+
