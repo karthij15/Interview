@@ -773,17 +773,19 @@ Explanation: There is no common prefix among the input strings.
 
 13.Two of the nodes of a Binary Search Tree (BST) are swapped. Fix (or correct) the BST
 Input Tree:
+```
          10
         /  \
        5    8
       / \
      2   20
-
+```
 In the above tree, nodes 20 and 8 must be swapped to fix the tree.  
 Following is the output tree
+```
          10
         /  \
        5    20
       / \
      2   8
-
+```
