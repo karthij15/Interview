@@ -758,19 +758,18 @@ bac
 9. Which docker hub/host you are using?
 10. TCP vs UDP Protocol difference
 11. HTTP vs GRPC
-12. Write a function to find the longest common prefix string amongst an array of strings.
-
-If there is no common prefix, return an empty string "".
-Example 1:
-
+12. Write a function to find the longest common prefix string amongst an array of strings.   If there is no common prefix, return an empty string "".
+   Example 1:
+```
 Input: strs = ["flower","flow","flight"]
 Output: "fl"
+```
 Example 2:
-
+```
 Input: strs = ["dog","racecar","car"]
 Output: ""
 Explanation: There is no common prefix among the input strings.
-
+```
 13.Two of the nodes of a Binary Search Tree (BST) are swapped. Fix (or correct) the BST
 Input Tree:
 ```
