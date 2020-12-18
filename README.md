@@ -744,3 +744,46 @@ bac
 4. print productname from product having same cost Note: SQL  queries (a table "product" with columns cost, category, and productname)
 5. print category from product having more than 3 items Note: SQL  queries (a table "product" with columns cost, category, and productname)
 
+# Rakuten - Bangalore
+
+## First Round 
+1. What are all the architectural patterns used in microservice?
+2. Difference between Monolith and Microservice?
+3. Microservice A <-> Microservice B (if B is down how A will respond)
+4. Microservice A <->  Microservice B (if A is 10000 req per sec and B is 5000 req per sec autoscale limit also reached) => kind of rate limiter
+5. Why Solr over Elastic search
+6. Design a HashMap? Which data type preferrable for the backing array?
+7. Like Immutable String class, create a class
+8. What is service discovery
+9. Which docker hub/host you are using?
+10. TCP vs UDP Protocol difference
+11. HTTP vs GRPC
+12. Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+Example 1:
+
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+Example 2:
+
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+
+13.Two of the nodes of a Binary Search Tree (BST) are swapped. Fix (or correct) the BST
+Input Tree:
+         10
+        /  \
+       5    8
+      / \
+     2   20
+
+In the above tree, nodes 20 and 8 must be swapped to fix the tree.  
+Following is the output tree
+         10
+        /  \
+       5    20
+      / \
+     2   8
+
