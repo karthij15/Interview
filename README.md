@@ -756,9 +756,10 @@ bac
 7. Like Immutable String class, create a class
 8. What is service discovery
 9. Which docker hub/host you are using?
-10. TCP vs UDP Protocol difference
-11. HTTP vs GRPC
-12. Write a function to find the longest common prefix string amongst an array of strings.   If there is no common prefix, return an empty string "".
+10.Queue vs Blocking Queue
+11. TCP vs UDP Protocol difference
+12. HTTP vs GRPC
+13. Write a function to find the longest common prefix string amongst an array of strings.   If there is no common prefix, return an empty string "".
    Example 1:
 ```
 Input: strs = ["flower","flow","flight"]
